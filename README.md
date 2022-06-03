@@ -2,7 +2,7 @@
 
 Una máquina virtual es una emulación de software de equipos físicos (procesador virtual, memoria, alamecenamiento y recursos de red). Proporciona una infraestructura como servicio (IaaS) y son idóneas cuando se necesita un control total sobre el entorno y sistema operativo.
 
-![logo de Máquina Virtual en Azure](imagenes\virtual machine logo.png)
+![logo de Máquina Virtual en Azure](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/virtual machine logo.png)
 
 **¿Cuándo usar VM?**
 
@@ -19,36 +19,36 @@ Una máquina virtual es una emulación de software de equipos físicos (procesad
 - El primer paso es entrar al [portal de Azure](www.portal.azure.com) 
 - Una ves dentro del portal de Azure se elige crear recurso.
 
-![crear recurso](imagenes\crear recurso.PNG)
+![crear recurso](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/crear_recurso.PNG)
 
 - Se busca Máquinas Virtuales y se selecciona. 
 
-![crear vm](imagenes\vm.PNG)
+![crear vm](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/vm.PNG)
 
 - Una ves dentro deben completarse los 4 campos que son requeridos para crear cualquier recurso: Una suscripción, un grupo de recursos (crear uno si no se tiene), un nombre para el recurso y seleccionar una región. 
 
-![requerimientos mínimos](imagenes\requerimientos minimos.PNG)
+![requerimientos mínimos](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/requerimientos_minimos.PNG)
 
 - Una ves llenados estos hay que terminar de llenar y seleccionar los demás requerimientos de datos generales.
 
-![requerimientos generales](imagenes\mas requerimientos.PNG)
-![requerimientos generales](imagenes\mas requerimientos2.PNG)
+![requerimientos generales](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/mas_requerimientos.PNG)
+![requerimientos generales](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/mas_requerimientos2.PNG)
 
 - En redes se deja todo como default (Debe estar seleccionado el grupo de seguridad de red si no la máquina no se puede abrir.)
 
-![requerimientos redes](imagenes\requerimientos redes.PNG)
+![requerimientos redes](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/requerimientos_redes.PNG)
 
 - Al finalizar de configurar la máquina virtual se da clic en el botón revisar y crear.
 
-![revisar y crear](imagenes\revisar y crear.PNG)
+![revisar y crear](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/revisar_y_crear.PNG)
 
 - Al terminar de revisar los campos requeridos, Azure despliega la información sobre la máuina virtual que se quiere crear, lo más importante es el costo que tiene la máquina solicitada. (Las máquinas virtuales cobran por hora).
 
-![validación](imagenes\validada.PNG)
+![validación](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/validada.PNG)
 
 - Una ves que se crea el recurso se muestra un mensaje como el siguiente, en el que se indica que todo se creó con éxito. 
 
-![requerimientos generales](imagenes\recurso creado.PNG)
+![requerimientos generales](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/recurso_creado.PNG)
 
 - Si nos vamos al grupo de recursos creado se pueden observar los componentes creados de la máquina virtual, la analogía con una PC física es la siguiente:
     - Red virtual y la IP pública -> Modem 
@@ -56,15 +56,15 @@ Una máquina virtual es una emulación de software de equipos físicos (procesad
     - Interfaz de red normal -> Wifi o Ethernet
     - Disco -> Disco de memoria 
 
-![requerimientos generales](imagenes\máquina virtual componentes.PNG)
+![requerimientos generales](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/máquina_virtual_componentes.PNG)
 
 Una ves la máquina virtual creada, se debe iniciar la conexión. Para esto se debe entrar al recurso VirtualMachine1 (nombre de la máquina virtual que se creo) y oprimir el conectar, se selecciona SDR.
 
-![conectar vm](imagenes\conectar.PNG)
+![conectar vm](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/conectar.PNG)
 
 Se debe descargar el archivo RDP.
 
-![descargar archivo RDP](imagenes\descargararchivo.PNG)
+![descargar archivo RDP](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/descargararchivo.PNG)
 
 Una ves descargado hay dos formas de abrir la máquina virtual, la primera es descargando el escritorio remoto de Microsoft, este debe descargarse en la AppStore de Microsoft. La otra forma es abrirlos con Conexión a escritorio remoto ya instalado en Windows. 
 
@@ -72,15 +72,15 @@ El archivo descargado se abre con alguno de los programas anteriores, se le dan 
 
 ![abrir con escritorio remoto](imagenes\conexion escritorio remoto.PNG)
 
-![usuario](imagenes\usuario.PNG)
+![usuario](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/usuario.PNG)
 
 Si todo esta correcto, se empieza a abrir nuestra máquina virtual.
 
-![vm](imagenes\virtual machine funcionando.PNG)
+![vm](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/virtual_machine_funcionando.PNG)
 
 Una práctica interesante es medir la velocidad del internet dentro de la máquina virtual. Esto se puede hacer mendiante el siguiente enlace [https://fast.com/es/](https://fast.com/es/). La máquina virtual creada cuenta con una velocidad de internet de 550 Mbps.
 
-![internet](imagenes\internetvm1.PNG)
+![internet](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/internetvm1.PNG)
 
 #### Cómo conectar dos máquinas virtuales
 
@@ -88,7 +88,7 @@ Para conectar dos máquinas virtuales hay dos cosas importantes a considerar: la
 
 Si queremos conectar una máquina virtual a la máquina recien creada hay que verificar en la sección de red, que esté conectada a la misma red virtual.
 
-![internet](imagenes\VM2redes.PNG)
+![internet](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/VM2redes.PNG)
 
 El resto del procedimeito para su creación es el mismo que se siguió en el apartado anterior.
 
@@ -100,12 +100,12 @@ Si esto marca succes entonces indica que las conecciones estan bien.
 
 Otra forma de verificar es mediante Power Shell, debe abrirse como adminisrador y se escriben las siguientes lineas para ejecutar el protocolo ICMPv4, este protocolo se usa para que se puedan conectar las máquinas virtuales.
 
-![protocolo ICMPv4](imagenes\ICMPv4.PNG)
+![protocolo ICMPv4](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/ICMPv4.PNG)
 
 Para abrir una máquina virtual dentro de otra máquina virtual se puede hacer con la siguiente linea en Power Shell (ejecutado como administrador).
 
-![mstsc](imagenes\abrir vm2 en vm1.PNG)
+![mstsc](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/abrir_vm2_en_vm1.PNG)
 
 Se muestran las dos máquinas virtuales una dentro de la otra.
 
-![internet](imagenes\dos máquinas virtuales.PNG)
+![internet](imagenes\dos_máquinas_virtuales.PNG)
