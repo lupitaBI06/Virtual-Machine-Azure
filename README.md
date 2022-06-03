@@ -2,7 +2,7 @@
 
 Una máquina virtual es una emulación de software de equipos físicos (procesador virtual, memoria, alamecenamiento y recursos de red). Proporciona una infraestructura como servicio (IaaS) y son idóneas cuando se necesita un control total sobre el entorno y sistema operativo.
 
-![logo de Máquina Virtual en Azure](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/virtual machine logo.png)
+![logo de Máquina Virtual en Azure](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/virtual_machine_logo.png)
 
 **¿Cuándo usar VM?**
 
