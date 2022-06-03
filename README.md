@@ -70,7 +70,7 @@ Una ves descargado hay dos formas de abrir la máquina virtual, la primera es de
 
 El archivo descargado se abre con alguno de los programas anteriores, se le dan los permisos necesarios y si todo va bien pedirá el usuario y contraseña que se definieron en la creación de la máquina virtual. 
 
-![abrir con escritorio remoto](imagenes\conexion escritorio remoto.PNG)
+![abrir con escritorio remoto](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/conexion_escritorio_remoto.PNG)
 
 ![usuario](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/usuario.PNG)
 
@@ -88,7 +88,7 @@ Para conectar dos máquinas virtuales hay dos cosas importantes a considerar: la
 
 Si queremos conectar una máquina virtual a la máquina recien creada hay que verificar en la sección de red, que esté conectada a la misma red virtual.
 
-![internet](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/VM2redes.PNG)
+![vm2 redes](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/VM2redes.PNG)
 
 El resto del procedimeito para su creación es el mismo que se siguió en el apartado anterior.
 
@@ -108,4 +108,4 @@ Para abrir una máquina virtual dentro de otra máquina virtual se puede hacer c
 
 Se muestran las dos máquinas virtuales una dentro de la otra.
 
-![internet](imagenes\dos_máquinas_virtuales.PNG)
+![internet](https://github.com/lupitaBI06/Virtual-Machine-Azure/blob/main/imagenes/dos_máquinas_virtuales.PNG)
